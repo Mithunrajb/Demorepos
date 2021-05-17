@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<form action="../index.html" method="post">
+    <div>
+        <label>First Name</label>
+    </div>
+    <div>
+        <input type="text" placeholder="Enter your name" required minlength=3 maxlength=10 name=fname>
+    </div>
+    <div>
+        <label>Email</label>
+    </div>
+    <div>
+        <input type="email" required placeholder="Enter email ID" name=email>
+    </div>
+    <div>
+        <label>Password</label>
+    </div>
+    <div>
+        <input type="password" required placeholder="Password" name=pwd>
+    </div>
+ 
+
+    <div>
+        male<input type="radio" name=gender value='m'>
+        Female<input type="radio" name=gender value='f'>
+    </div>
+    <div>
+        <select name="course">
+            <option value="java">java</option>  
+            <option value="DS">Data science</option> 
+            <option value="Python">python</option> 
+        </select>
+    </div>
+
+    <div>
+<input type="date" name="dob">
+    </div>
+
+    <div>
+        <input type="file" name=filename value="resume">
+    </div>
+
+    <div>
+        <input type="number" value="age">
+    </div>
+    <div>
+        <input type="submit" value="save">
+    </div>
+
+</div>
+<div>
+
+    <textarea id="address" name="address" rows="4" cols="50"></textarea>
+</div>
+</form>
+</body>
+
+</html>

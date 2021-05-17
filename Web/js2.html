@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document2</title>
+</head>
+<body>
+      <!--
+       An example to show object variables, switch and java event -->
+<script>
+    let obj1=new Date().getHours()
+    console.log(obj1)
+
+    if(obj1<12){
+        console.log("Good Morning")
+    }
+    else if (obj1>12 && obj1<16){
+        console.log("Good afternoon")
+    }
+    else if (obj1<12 && obj1<19){
+        console.log("Good Evening")
+    }
+    else{
+        console.log("Good Night")
+    }    
+        let age=prompt("Enter your age")
+        console.log(age)
+       
+
+       switch(age){
+        case "18":{
+           console.log("18")
+           break;
+       }
+        case "30":{
+           console.log("30")
+       }
+        case "45":{
+           console.log("45")
+       }
+        default:{
+           console.log("Invalid input")
+       }
+    }
+
+    let x=90;let y=100; let z=140;
+    if(x>y && x>z)
+    {
+        console.log(x+"is the largest")
+    }
+    else if(y>x && y>z)
+    {
+        console.log(y+"is the largest")
+    }
+    else 
+    {
+        console.log(`${z} is the largest`) // ` ${var} text` can be used to display text//
+    }
+
+
+
+</script>
+
+<button onclick="alert('hello')">click here</button> <!-- on click is an event that drives the java script-->
+</body>
+</html>

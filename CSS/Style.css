@@ -1,0 +1,13 @@
+.mydiv{
+    background-color: chartreuse;
+    color:crimson;
+   }
+#link1{
+   color:green;
+   background-color: red;
+   }
+
+  .mydiv:hover{
+    color:rgb(61, 26, 185);
+    background-color: rgb(216, 25, 175);
+    }

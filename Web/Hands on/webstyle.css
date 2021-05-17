@@ -1,0 +1,30 @@
+.header {
+    color:darkgoldenrod;
+    background-color: darkgray;
+    text-align:center;
+   
+}
+
+.main {
+    color:rgb(47, 28, 92);
+    background-color: floralwhite;
+}
+
+.footer {
+    color:rgb(61, 145, 160);
+    background-color:lavender;
+}
+
+img {
+    padding: 10px;
+    margin: 10px;
+}
+
+.headerlink {
+    background-color: lightgoldenrodyellow;
+}
+
+a:hover{
+    color: lightgreen;
+}
+

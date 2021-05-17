@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../bootstrap-5.0.0-beta3-dist/css/bootstrap-grid.css">
+    <link rel="stylesheet" href="../bootstrap-5.0.0-beta3-dist/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="../bootstrap-5.0.0-beta3-dist/css/bootstrap.min.css">
+</head>
+<body>
+<button onclick="openDiv()">open</button>
+<div class="card text-white bg-primary" id="div1" style="display:none">
+demo div
+</div>
+<button onclick="addContent()">click to add</button>
+<p id="p1"></p>
+<p id="p2"></p>
+
+<input type="text" id=username onblur="getData()">
+<button onclick="setData()">See Data</button> 
+<input type="text" id=value1>
+<button>+</button>
+<input type="text" id=value2>
+<button onclick="addData()">=</button>
+<input type="text" id=result>
+<script src="../js/dom.js"></script>
+</body>
+</html>

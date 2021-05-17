@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+      <!--
+        
+        to show log message inside console and webpage -->
+    <script>
+        alert("hello")
+
+        //to show log message inside console and webpage//
+        
+        console.log("hello all...")
+
+        document.write(" hello everyone...")
+
+        //to show values of variables in console and webpage//
+var x;
+x=100
+console.log(x)
+var y=50
+document.write(y)
+
+//to show type of datatype in variables in console //
+console.log(typeof x)
+
+//to show other type of datatype//
+
+var z1=100.40
+var name="anna"
+var k;
+var obj=null
+var c=true
+console.log(typeof z)
+console.log(typeof name)
+console.log(typeof k)
+console.log(typeof obj)
+console.log(typeof c)
+//values of const variables cannot be modified later //
+const abc= 1000;
+//abc=2000;//
+
+//arithmetic operators//
+
+var sm="hi"+"hello"
+console.log(sm)
+var result=10+20
+console.log("result=", result)
+var a=10;b=100; var c=50;
+let s=a*b //let is similar to var but let doesnot allow redeclaration//
+let d=a/b
+let r=a%b //reminder or modulus//
+let p=r**3; // power of//
+a+=2 // incrementiang and assigning//
+
+console.log(s)
+console.log(d)
+console.log(r)
+console.log(p)
+console.log(a)
+
+// relational operators//
+
+let x1="123"; let x2=123; 
+console.log(x1==x2) // check the value inside x1 and x2. Datatype is ignored//
+console.log(x1===x2)// check the value and datatype inside x1 and x2.//
+console.log(x1>=x2)
+console.log(x1!=x2)
+console.log(x1>x2)
+
+//logical operators//
+
+console.log(x1==x2 && x2>x1) // AND operator - both the results should be true//
+console.log(x1!=x2 || x1==x2) // OR operator - one should be true
+console.log(!(x1===x2)) // NOT - invert value of the result
+
+//conditional operators//
+let val=x2>x1?0:x1/x2; // if true first expression else the other//
+console.log(val)
+
+//conditional statement//
+
+let k1="abc"; let k2="123"
+
+if(typeof k1==typeof k2){
+    console.log(k1+k2)
+    console.log(" inside if block")
+}
+else{
+    console.log("inside else block")
+}
+</script>
+</body>
+</html>
